@@ -22,11 +22,14 @@ label {
 .btn {
   float: right;
   margin-right: 30%;
+  /*background-color: #c1e868;
+  color: black;*/
 }
 
 #submit {
   float: left;
   margin-top: 20px;
+
 }
 
 .jumbotron {
@@ -34,6 +37,7 @@ label {
   width: 600px;
   margin-top: 30px;
   margin-bottom: 40px;
+  background-color: #e9eade;
 }
 
 .drop-down {
@@ -45,10 +49,15 @@ label {
 
 .well {
   width: 800px;
+  background-color: #e9eade;
 }
 
 .logo {
   max-height: 200px;
   max-width: 200px;
   float: right;
+}
+
+button {
+  color: blue;
 }
