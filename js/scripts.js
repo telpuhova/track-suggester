@@ -4,7 +4,6 @@ $(document).ready(function() {
     var pointsC = 0;
     var pointsJ = 0;
     var pointsP = 0;
-    var preference = "";
 
     var large = $("#large").val();
     var business = $("#business").val();
@@ -12,6 +11,8 @@ $(document).ready(function() {
     var versatility = $("#versatility").val();
     var language = $("#language").val();
 
+    var name = $("#name").val();
+    $(".name").text(name);
 
     if (large === "yes") {
       pointsC += 2;
@@ -28,20 +29,16 @@ $(document).ready(function() {
 
     if (language === "C#") {
       pointsC += 3;
-      preference = "#result1";
     }
     else if (language === "Java") {
       pointsJ += 3;
-      preference = "#result2";
     }
     else {
       pointsP += 3;
-      preference = "#result3";
     }
 
     $(".points").empty();
     $(".points").append("<p>C# points: " + pointsC + "</p>");
-    // $(".points").append("<br>");
     $(".points").append("<p>Java points: " + pointsJ + "</p>");
     $(".points").append("<p>PHP points: " + pointsP + "</p>");
 
