@@ -3,11 +3,8 @@
 }
 
 body {
-  /*background-color: blue;*/
   background-image: url("../img/img3.jpg");
   background-size: cover;
-  /*background-repeat: no-repeat;*/
-  /*background-position: bottom left;*/
 }
 
 .formOne {
@@ -22,8 +19,6 @@ label {
 .btn {
   float: right;
   margin-right: 30%;
-  /*background-color: #c1e868;
-  color: black;*/
 }
 
 #submit {
@@ -44,7 +39,6 @@ label {
   float: right;
   margin-right: 30%;
   width: 300px;
-  /*height: 20px;*/
 }
 
 .well {
