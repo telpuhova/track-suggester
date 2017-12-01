@@ -39,9 +39,13 @@ $(document).ready(function() {
       preference = "#result3";
     }
 
-    $(".result").append("<p>C# points: " + pointsC + "</p>");
-    $(".result").append("<p>Java points: " + pointsJ + "</p>");
-    $(".result").append("<p>PHP points: " + pointsP + "</p>");
+    $(".points").empty();
+    $(".points").append("<p>C# points: " + pointsC + "</p>");
+    // $(".points").append("<br>");
+    $(".points").append("<p>Java points: " + pointsJ + "</p>");
+    $(".points").append("<p>PHP points: " + pointsP + "</p>");
+
+    $(".points").addClass("well");
 
     if ((pointsC > pointsJ) && (pointsC > pointsP)) {
       $("#result1").show();
