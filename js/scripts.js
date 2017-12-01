@@ -60,5 +60,11 @@ $(document).ready(function() {
       $(".formOne").hide();
     }
 
+    $(".btn").click(function(){
+      // alert("1");
+      $(".result").hide();
+      $(".formOne").show();
+    });
+
   });
 });
