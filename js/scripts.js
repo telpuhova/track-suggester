@@ -65,6 +65,5 @@ $(document).ready(function() {
       $(".result").hide();
       $("#form-one").fadeIn();
     });
-
   });
 });

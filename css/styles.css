@@ -12,10 +12,6 @@ body {
   padding: 30px;
 }
 
-/*label {
-    background-color: #303030;
-}*/
-
 .btn {
   float: right;
   margin-right: 30%;
@@ -37,7 +33,6 @@ body {
 
 .drop-down {
   float: right;
-  /*margin-right: 30%;*/
   width: 300px;
 }
 
