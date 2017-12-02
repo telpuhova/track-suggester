@@ -45,25 +45,25 @@ $(document).ready(function() {
     $(".points").addClass("well");
 
     if ((pointsC > pointsJ) && (pointsC > pointsP)) {
-      $(".formOne").hide();
+      $("#form-one").hide();
       $("#result1").fadeIn();
     }
     else if ((pointsJ > pointsC) && (pointsJ > pointsP)) {
-      $(".formOne").hide();
+      $("#form-one").hide();
       $("#result2").fadeIn();
     }
     else if ((pointsP > pointsJ) && (pointsP > pointsC)) {
-      $(".formOne").hide();
+      $("#form-one").hide();
       $("#result3").fadeIn();
     }
     else {
-      $(".formOne").hide();
+      $("#form-one").hide();
       $("#result4").fadeIn();
     }
 
     $(".btn").click(function(){
       $(".result").hide();
-      $(".formOne").fadeIn();
+      $("#form-one").fadeIn();
     });
 
   });

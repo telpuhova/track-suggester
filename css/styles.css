@@ -7,14 +7,14 @@ body {
   background-size: cover;
 }
 
-.formOne {
-
-  color: #d1d1d1;
+#form-one {
+  color: #303030;
+  padding: 30px;
 }
 
-label {
+/*label {
     background-color: #303030;
-}
+}*/
 
 .btn {
   float: right;
@@ -23,7 +23,7 @@ label {
 
 #submit {
   float: left;
-  margin-top: 20px;
+  margin-top: 50px;
 
 }
 
@@ -37,7 +37,7 @@ label {
 
 .drop-down {
   float: right;
-  margin-right: 30%;
+  /*margin-right: 30%;*/
   width: 300px;
 }
 
