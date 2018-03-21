@@ -1,22 +1,22 @@
-# _Track suggester_
+# Track suggester
 
-#### _track suggester website, 12/1/2017_
+track suggester website, 12/1/2017
 
-#### By _**telpuhova**_
+**By Natalia Telpukhova**
 
 https://telpuhova.github.io/track-suggester/
 
 ## Description
 
-_A track-suggester website, that offers user a form to fill, and based on the answers recommends the programming language they should learn. Made as an assignment for a coding school_
+A track-suggester website, that offers user a form to fill, and based on the answers recommends the programming language they should learn. Made as an assignment for a coding school
 
 ## Setup
 
-* _clone repository_
-* _open index.html in browser_
+* clone repository
+* open index.html in browser
 
 ## Technologies Used
 
-_HTML, CSS, JS, Bootstrap, jquery_
+HTML, CSS, JS, Bootstrap, jquery
 
-Copyright (c) 2017 **_telpuhova_**
+Copyright (c) 2017 Natalia Telpukhova
